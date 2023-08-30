@@ -5,41 +5,41 @@ Simple App with REST APIs to do CRUD operations on places
 
 ## Deployment and running locally
 
-To set up project locally 
+To set up project locally
 
 #### Clone
 
-```bash 
+```bash
   https://gitlab.com/MBYogesh/example-app.git
 ```
 
 #### Go inside directory
 
-```bash 
+```bash
   cd example-app
 ```
 
 #### create and modify  .env file. Create a copy of env.example and then rename as .env
 
-```bash 
+```bash
   Add database details correctly. Considering mysql db
 ```
 
 #### install packages - Considering composer is already installed
 
-```bash 
+```bash
   composer install
 ```
 
 #### Run migration to create required tables. this will create tables in connected db
 
-```bash 
+```bash
   php artisan migrate
 ```
 
-#### Run project. 
+#### Run project.
 
-```bash 
+```bash
   php artisan serve
 ```
 
@@ -97,7 +97,3 @@ To set up project locally
 | `is_active`      | `boolean` | **Required**. is record active |
 | `photo_name`      | `string` | **Required**. photo name |
 | `photo`      | `file` | **Required**. actual photo |
-
-
-
-
