@@ -1,0 +1,74 @@
+# Laravel-specific
+.env
+.env.*
+vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+public/hot
+public/storage
+storage/*.key
+public/.htaccess
+Homestead.json
+Homestead.yaml
+
+# PhpStorm
+.idea/
+
+# Sublime Text
+.sublime-project
+.sublime-workspace
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Editor temporary and backup files
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Testing
+phpunit.xml
+/tests/Browser/screenshots/
+/tests/Browser/console/
+/tests/Browser/Firefox.log
+/tests/Browser/chromedriver.log
+/nova-tests/
+/nova-components/
+/nova-vendor/
+
+# Application specific
+/node_modules
+
+# Dependencies
+composer.lock
+mix-manifest.json
+
+# Compiled files
+/public/css/
+/public/js/
+/public/mix-manifest.json
+/public/hot
+
+# Laravel Telescope
+/telescope-published-assets
+/storage/app/telescope
+/storage/app/public/telescope
+
+# Laravel Dusk
+/storage/app/public/screenshots
+/storage/logs/laravel.log
+
+# Laravel Horizon
+/storage/nova
+/storage/framework/horizon
+
